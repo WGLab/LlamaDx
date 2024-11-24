@@ -1,0 +1,12 @@
+rag_diseases/*
+rag_genetics/*
+chroma.log
+chromadb_store.py
+groq_key.txt
+rag_test.py
+test.py
+image.jpg
+.ipynb*
+*__pycache__
+chroma/*
+config.json
