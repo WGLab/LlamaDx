@@ -56,7 +56,7 @@ for message in st.session_state.chat_history:
 # set header
 st.header("Please upload an image")
 # upload file
-file = st.file_uploader("", type=["jpeg", "jpg", "png"], key=st.session_state["uploader_key"])
+file = st.file_uploader("", type=["jpeg", "jpg", "png"])
 
 if file:
     # display image
